@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> CSS Fonts, Styles and Backgrounds</title>
+<style>
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://picsum.photos/1200/800");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+  }
+
+  .heading2 {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    color: darkred;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  p.normal {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.6;
+  }
+
+  p.fancy {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  #highlight {
+    font-family: "Trebuchet MS", sans-serif;
+    color: white;
+    background-color: darkgreen;
+    padding: 4px 10px;
+  }
+
+  .content {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  
+  .box1, .box2 {
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+  }
+
+  .box1 {
+    background-image: url("https://picsum.photos/id/237/600/300");
+    color: white;
+  }
+
+  .box2 {
+    background-image: url("https://picsum.photos/id/10/600/300");
+    color: yellow;
+    border: 3px solid white;
+  }
+</style>
+</head>
+<body>
+
+  <h1> CSS Fonts, Styles and Backgrounds</h1>
+
+  <div class="content">
+    <h2 class="heading2">Different fonts and styles</h2>
+    <p class="normal">This paragraph uses the Verdana font with a custom line height.</p>
+    <p class="fancy">Bold, uppercase and letter-spaced text</p>
+    <p>Here is <span id="highlight">highlighted text</span> using an ID selector.</p>
+  </div>
+
+  <div class="box1">This element has its own background image</div>
+  <div class="box2">This element has a different background image</div>
+ <footer>
+   Created by <span> RASHI YADAV </span> | Roll no. <span> 2501920110297</span>     
+    </footer>
+
+
+
+</body>
+</html>
