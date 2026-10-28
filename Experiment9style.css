@@ -1,0 +1,53 @@
+body
+{
+
+background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60'><circle cx='30' cy='30' r='25' fill='orange' stroke='saddlebrown' stroke-width='3'/></svg>");
+background-repeat:repeat;
+}
+
+h1
+{
+text-align:center;
+color:blue;
+}
+p.left
+{
+text-align:left;
+color:blue;
+font-family:Cambria;
+font-size:large;
+text-indent:20px;
+}
+p.center
+{
+text-align:center;
+text-decoration:underline;
+text-transform:uppercase;
+letter-spacing:-3px;
+word-spacing:20px;
+font-size:larger;
+}
+p.right
+{
+text-align:right;
+color:red;
+font-style:italic;
+text-decoration:overline;
+}
+b.styled
+{
+color:blue;
+text-decoration:underline;
+font-size:larger;
+}
+a:link    { color:red; text-decoration:none; }
+a:visited { color:purple; }
+a:hover   { color:darkred; text-decoration:underline; background-color:black; }
+a:active  { color:lime; }
+
+.plus     { cursor:crosshair; color:indigo }
+.pointer  { cursor:pointer;   color:indigo; }
+.grab     { cursor:grab;      color:indigo; }
+.bar      { cursor:text;      color:indigo; }
+.wait     { cursor:wait;      color:indigo; }
+.question { cursor:help;      color:indigo; }
